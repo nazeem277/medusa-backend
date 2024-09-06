@@ -10,6 +10,9 @@ Push Docker Image to ECR:
 
   Tag and push the Docker image : docker tag YOUR_DOCKER_IMAGE_URI YOUR_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/medusa
   docker push YOUR_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/medusa
+  
+To run the docker container : docker run -p 9000:9000 medusa-backend (Checking on localhost with port 9000)
+  
 
 Configure GitHub Secrets with AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY
 
